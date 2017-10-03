@@ -1,3 +1,17 @@
 .box {
-  background-color: #ffcccc;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.box-title {
+  background-color: #f9f9f9;
+  padding: 0.5em;
+}
+
+.box ul {
+  background-color: #FCEBE3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+
 }
