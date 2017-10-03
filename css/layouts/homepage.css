@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-gap: 1.5em;
+  padding: 1.5em;
+}
+
+.sidebar {
+  display: inherit;
+  grid-gap: inherit;
+}
+
+@media (min-width: 34em) and (max-width: 49.9375em) {
+  .sidebar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 50em) {
+  .container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 50em) {
+  .sidebar {
+    grid-auto-rows: min-content;
+    grid-row: span 2;
+  }
+}
