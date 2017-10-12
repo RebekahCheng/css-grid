@@ -1,5 +1,6 @@
 /* Importing layouts */
-@import url("layouts/homepage.css");
+@import url("layouts/index.css");
+@import url("layouts/home.css");
 
 /* Importing components */
 @import url("components/box.css");
